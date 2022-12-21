@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://google.com" method="post">
+        <center>
+        Name: <input  partten="[A-Za-z]+" placeholder="please enter user name" type ="text"/> <br/>
+        age : <input  type="text"/> <br/>
+        password : <input type="text" pattern="[A-Za-z0-9*@]{7,}/> <br/>
+        Gender : <input type="radio" name="gender"/> male
+                <input type="radio" name="gender"/> female <br/>
+                technologies:
+                <input type="checkbox" name="tech1" value="html"/> HTML
+                <input type="checkbox" checked name="tech2" value="css"/> CSS
+                <input type="checkbox" name="tech3" value="js"/> JS <br/>
+             city lived in :
+
+             <input list="cities"/>
+             <datalist id="cities"/>
+             <select name="city" multiple>
+                <option>Hyderabad</option>
+                <option>khammam</option>
+                <option>warangal</option>
+                <option>bhadrachalam</option>
+            </select> 
+        </datalist> <br/>
+             Upload your resume :
+               <input type="file" multiple/> <br/>
+             your email id :
+              <input type="email"/> <br/>
+              your phone number :
+               <input type="number" pattern="[0-9]{4}" /> <br/>
+             your Favorite color:
+                <input type="color"/> <br/>
+              your date of birth :
+                <input type="datetime-local"/> <br/>   
+
+             <input type="button" value="click me"/>
+             <input type="submit" value="submit from"/>  
+             <input type="reset"/>
+            </center>
+    </form>
+</body>
+</html>
